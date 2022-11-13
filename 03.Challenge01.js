@@ -8,7 +8,7 @@ HouseRent.prototype.rentIncrement = function () {
 }
 
 HouseRent.prototype.rentDecrement = function () {
-    this.rent += 2000;
+    this.rent -= 2000;
     console.log(this.rent);
 }
 
